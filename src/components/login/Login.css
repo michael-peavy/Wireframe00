@@ -1,0 +1,174 @@
+
+.sign-up {
+  width: 700px;
+  padding: 40px;
+  border-radius: 3px;
+  background: white;
+  border:5px solid;
+  border-radius: 10px;
+  line-height: 38px;
+  font-size: 35px;
+  font-weight: 300;
+  color: #565656;
+  text-align: center;
+  letter-spacing: 0;
+  margin: 0 auto 45px;
+  margin-top: 130px;
+}
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.sign-up {
+  width: 700px;
+  padding: 40px;
+  border-radius: 3px;
+  background: white;
+  border:5px solid;
+  border-radius: 10px;
+  line-height: 38px;
+  font-size: 35px;
+  font-weight: 300;
+  color: #565656;
+  text-align: center;
+  letter-spacing: 0;
+  margin: 0 auto 45px;
+  margin-top: 130px;
+
+
+ 
+
+}
+
+
+button[type="submit"] {
+  height: auto;
+  font-size: 22px;
+  font-weight: 500px;
+  text-align: center;
+  color: white;
+  background: orange;
+  border: 0;
+  cursor: pointer;
+  margin-bottom: 0;
+  display: block;
+  width: 10%;
+  height: auto;
+  font-size: 18px;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 0.2s;
+  border-radius: 10px;
+
+
+}
+
+
+
+
+input[type="username"],
+input[type="password"]
+ {
+  display: block;
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  text-align: left;
+  padding: 15px;
+  border: 2px solid #e7e7e7;
+  border-radius: 10px;
+  background: #fcfcfc;
+  margin: 10px auto 20px;
+  transition: opacity 0.4s;
+}
+
+input[type="text"]
+{
+  display: block;
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  text-align: left;
+  padding: 15px;
+  border: 2px solid #e7e7e7;
+  border-radius: 10px;
+  background: #fcfcfc;
+  transition: opacity 0.4s;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1300px) {
+  
+  
+  
+
+
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+
+
+
+
+
+ 
+ 
+  
+  
+  
+
+
+
+
+  .sign-up {
+    width: 400px;
+    padding: 40px;
+    border-radius: 3px;
+    background: white;
+    border:5px solid;
+    border-radius: 10px;
+    line-height: 38px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #565656;
+    text-align: center;
+    letter-spacing: 0;
+    margin: 0 auto 45px;
+    margin-top: 130px;
+    
+  
+  
+   
+  
+  }
+  
+}
+
+
+
+

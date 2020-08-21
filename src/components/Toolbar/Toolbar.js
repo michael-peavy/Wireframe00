@@ -12,21 +12,34 @@ const Toolbar = (props) => (
       </div>
       <div className="toolbar_logo">
         
-        <a href="/">  PAYLOCITY</a>
+        <a href="/">  paylocity</a>
       </div>
       <div className="spacer" />
       <div className="toolbar_navigation_items">
-        <Router>
+        {/* <Router> */}
           <ul>
-            <li>Home</li>
+            <Link to="/">
+              <li>home</li>
+            </Link>
+
+
 
             <Link to="/login">
               <li>Login</li>
             </Link>
 
+            <Link to='messeges'>
             <li className="d-none">Messages</li>
+            </Link>
+
+            <Link to='paycheck'>
+            <li className="d-none">Paycheck</li>
+            </Link>
+
+
+
           </ul>
-        </Router>
+        {/* </Router> */}
       </div>
     </nav>
   </header>

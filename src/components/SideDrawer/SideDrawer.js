@@ -4,7 +4,6 @@ import {BrowserRouter as Router, Link, Switch, withRouter} from 'react-router-do
 
 const SideDrawer =  props => (
   <nav className='side-drawer'>
-    <Router>
     <ul>
 
       <Link to='/login'>
@@ -19,9 +18,8 @@ const SideDrawer =  props => (
 
 
     </ul>
-    </Router>
 
-
+    
   </nav>
 )
 

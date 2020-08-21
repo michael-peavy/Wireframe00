@@ -7,7 +7,7 @@ import Home from './components/home/Home'
 import Login from './components/login/Login'
 import Messages from './components/messages/Messages'
 import PayCheck from './components/paycheck/PayCheck'
-
+import BottomNav from './components/BottomNav/BottomNav'
 import {
   BrowserRouter as Router,
   Switch,
@@ -43,6 +43,8 @@ class App extends Component {
       backdrop = <Backdrop click={this.backdropClickHandller}/>
     } 
   return (
+    <Router>
+
      <div style={{height: '100%'}}>
 
     <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
@@ -51,25 +53,25 @@ class App extends Component {
   
 
     <main style={{marginTop:'64px'}}>
-      <Router>
      
        <Switch>
        <Route exact={true} path="/login" component={Login}/>
-      <Route exact={true} path="/messages" component={Messages}/>
+      <Route exact={true} path="/messeges" component={Messages}/>
       <Route exact={true} path="/paycheck" component={PayCheck}/>
       <Route exact={true} path="/" component={Home}/>
 
       
       </Switch>
-      </Router>
 
 
+      <BottomNav/>
 
 
     </main>
     </div>
     
-      
+    </Router>
+
   );
   }
 }

@@ -3,7 +3,10 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: orange;
+  background-image: linear-gradient(to right, orange , grey);
+
+  
+
   height:56px;
 }
 
@@ -19,9 +22,15 @@
 .toolbar_logo a{
   color:white;
   text-decoration: none;
+  font-family: 'Orbitron', sans-serif;
   font-size: 2rem;
 }
 
+
+.toolbar_logo a:hover{
+  color:grey;
+ 
+}
 .toolbar_navigation {
   display: flex;
   height: 100%;
@@ -34,6 +43,7 @@
   margin: 0;
   padding: 0;
   display: flex;
+  font-family: 'Orbitron', sans-serif;
 
 }
 
@@ -50,7 +60,7 @@
 }
 
 .toolbar_navigation_items a:hover {
-  color: red;
+  color: orange;
   
 
 }
